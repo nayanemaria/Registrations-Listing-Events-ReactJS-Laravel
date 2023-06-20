@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.row{
+  justify-content: center;
+}
+.ant-menu-item.ant-menu-item-selected{
+  background-color: transparent;
+}
+.ant-menu-title-content{
+  font-weight: bold;
+}
+.ant-layout-sider-children{
+  background-color: #1446a9;
+}
+.ant-menu.ant-menu-root.ant-menu-inline.ant-menu-dark.css-dev-only-do-not-override-12jzuas{
+  background-color: #1446a9;
+}
+.ant-menu.ant-menu-root.ant-menu-vertical.ant-menu-dark.ant-menu-inline-collapsed.css-dev-only-do-not-override-12jzuas{
+  background-color: #1446a9;
+}
+.ant-btn.css-dev-only-do-not-override-12jzuas.ant-btn-primary{
+  background-color: #277FF2;
+}
+.buttons-actions{
+  margin: 0 auto;
+  justify-content: center;
+  display: flex;
+}
+.row-form{
+  margin-top: 50px;
+}
+@media screen and (min-width: 600px) {
+  .ant-typography.css-dev-only-do-not-override-12jzuas{
+    margin-right: 20px;
+  }
+}
+@media screen and (max-width: 599px) {
+  #validateOnly{
+    margin-top: 10px;
+  }
+	.title{
+    font-size: 25px!important;
+  }
+}
