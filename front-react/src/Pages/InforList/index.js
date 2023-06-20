@@ -159,8 +159,6 @@ export default function InforList(){
       dataIndex: 'nome_evento',
       key: 'nome_evento',
       ...getColumnSearchProps('evento'),
-      sorter: (a, b) => a.evento.length - b.evento.length,
-      sortDirections: ['descend', 'ascend'],
     },
     {
       title: 'Ações',
